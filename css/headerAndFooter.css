@@ -8,6 +8,7 @@
 body{
 	font-family: Verdana, Geneva, Arial, sans-serif;
 	font-size: small;
+	background-color: rgb(245, 246, 246);
 }
 nav{
 	position: fixed;
@@ -69,6 +70,62 @@ section#body{
 section#body{
 	padding-bottom: 20px;
 }
+footer{
+	background-color: rgb(40, 41, 35);
+	clear: both;
+}
+footer section{
+	padding: 20px 43px 20px 43px;
+}
+footer section section:nth-child(1){
+	float: left;
+	width: 60%;
+}
+footer section section:nth-child(2){
+	float: left;
+	width: 40%;
+}
+footer section section header{
+	margin-bottom: 15px;
+	font-size: 1.5em;
+	color: white;
+	letter-spacing: 0.1em;
+}
+footer section section p{
+	line-height: 1.5em;
+	margin-bottom: 15px;
+	font-size: 1em;
+	color: gray;
+	width: 80%;
+}
+footer section section span a{
+	margin-right: 20px;
+}
+footer section section span a img{
+	width: 30px;
+	height: 30px;
+}
+footer section section table{
+	color: gray;
+}
+footer section section table tr td{
+	vertical-align: top;
+}
+footer section section table tr td img{
+	width: 20px;
+	height: 20px;
+	margin-right: 16px;
+}
+footer section section table tr td{
+	padding-bottom: 10px;
+}
+footer#base{
+	clear: left;
+	background-color: rgb(30, 31, 25);
+	color: #a7aca1;
+	padding: 23px 85px;
+	font-size: 1em;
+}
 @media (max-width: 1250px){
 	label.logo{
 		margin-left: 40px;
@@ -106,6 +163,13 @@ section#body{
 	}
 	section#body{
 		padding-top: 80px;
+	}
+	footer section{
+		padding: 20px 23px 20px 23px;
+	}
+	footer#base{
+		padding: 23px 43px;
+		margin: 0px auto;
 	}
 }
 @media (max-width: 950px){
@@ -153,5 +217,35 @@ section#body{
 	}
 	#check:checked ~ ul{
 		left: 0;
+	}
+}
+@media (max-width: 900px){
+	footer section{
+		padding: 20px 13px 20px 13px;
+	}
+	footer section section{
+		clear: left;
+		padding: 20px 13px 20px 13px;
+	}
+	footer section section:nth-child(1){
+		float: left;
+		width: 100%;
+	}
+	footer section section:nth-child(2){
+		float: left;
+		width: 100%;
+	}
+	footer#base{
+		padding: 23px 30px;
+		margin: 0px auto;
+	}
+}
+
+@media (max-width: 600px){
+	
+	footer section section header{
+		margin-bottom: 15px;
+		font-size: 1.5em;
+		letter-spacing: 0.05em;
 	}
 }
