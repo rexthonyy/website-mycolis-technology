@@ -124,12 +124,102 @@ section#body div#wideScreen section#whatWeDo table tr td div a:hover{
 	border-spacing: 0px 20px;
 	width: 100%;
 }
-#weUnderstand1 table tr td table tr td{
-	vertical-align: top;
-	text-align: left;
-	font-size: 1.2em;
-	color: rgb(25, 25, 25);
+#achievement{
+	background-image: url("../images/pic_achievement_470x380.jpg");
+	background-color: rgb(112, 112, 112);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 80px 180px;
+	text-align: center;
 }
+#achievement1{
+	display: none;
+}
+#achievement table{
+	width: 100%;
+	color: white;
+}
+#achievement table tr td{
+	padding: 0px 20px;
+}
+#achievement table tr td img{
+	width: 64px;
+	height: 64px;
+}
+#achievement table tr td h1{
+	font-size: 4em;
+	margin-top: 12px;
+	font-weight: bold;
+}
+#achievement table tr td p{
+	font-size: 1.5em;
+	margin-top: 12px;
+}
+#ourProjects{
+	padding: 80px 120px 0px 120px;
+	text-align: center;
+}
+#ourProjects h1{
+	font-size: 2.1em;
+	font-weight: bold;
+}
+#customBreak{
+	width: 100px;
+	height: 3px;
+	margin: 14px auto;
+	background-color: orange;
+}
+#ourProjects p{
+	width: 80%;
+	margin: 30px auto 0px auto;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: rgb(125, 125, 125); 
+}
+#ourProjects table{
+	width: 100%;
+	margin: 18px 24px;
+	border-spacing: 20px 40px;
+}
+#ourProjects table tr td{
+	width: 25%;
+}
+#ourProjects table tr td figure{
+	height: 200px;
+	background-image: url("../images/pic_header_2_370x300.jpg");
+	background-color: rgb(112, 112, 112);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 2px;
+}
+#ourProjects table tr td figcaption{
+	text-align: left;
+	vertical-align: bottom;
+}
+#ourProjects table tr td figcaption h3{
+	color: black;
+	font-size: 1.3em;
+	margin-top: 10px;
+	font-weight: bold;
+}
+#ourProjects table tr td figcaption p{
+	color: rgb(125, 125, 125); 
+	font-size: 1.2em;
+	margin: 10px 0px 0px 0px;
+}
+#ourProjects table tr:nth-child(1) td:nth-child(1) figure{
+	background-image: url("../images/pic_header_1_370x300.jpg");
+}
+#ourProjects table tr:nth-child(1) td:nth-child(3) figure{
+	background-image: url("../images/pic_header_1_370x300.jpg");
+}
+#ourProjects table tr:nth-child(2) td:nth-child(2) figure{
+	background-image: url("../images/pic_header_1_370x300.jpg");
+}
+#ourProjects table tr:nth-child(2) td:nth-child(4) figure{
+	background-image: url("../images/pic_header_1_370x300.jpg");
+}
+
 @media (max-width: 1250px){
 	section#body div#wideScreen section#heading{
 		height: 500px;
@@ -159,6 +249,12 @@ section#body div#wideScreen section#whatWeDo table tr td div a:hover{
 		font-size: 1.2em;
 		line-height: 1.6em;
 	}
+	#achievement{
+		padding: 80px 120px;
+	}
+	#ourProjects{
+		padding: 80px 80px 0px 80px;
+	}
 }
 @media (max-width: 1100px){
 	section#body div#wideScreen section#whatWeDo{
@@ -172,6 +268,12 @@ section#body div#wideScreen section#whatWeDo table tr td div a:hover{
 	}
 	#weUnderstand table tr td table tr td img{
 		margin-right: 0px;
+	}
+	#achievement{
+		padding: 80px 70px;
+	}
+	#ourProjects{
+		padding: 80px 40px 0px 40px;
 	}
 }
 @media (max-width: 950px){
@@ -241,6 +343,47 @@ section#body div#wideScreen section#whatWeDo table tr td div a:hover{
 		line-height: 1.6em;
 		color: rgb(125, 125, 125);
 	}
+	#weUnderstand1 div table{
+		border: 1px solid transparent;
+		width: 100%;
+		border-spacing: 0px 20px;
+	}
+	#weUnderstand1 div table tr td{
+		font-size: 1.2em;
+		color: rgb(25, 25, 25);
+	}
+	#achievement{
+		display: none;
+	}
+	#achievement1{
+		display: block;
+		background-image: url("../images/pic_achievement_470x380.jpg");
+		background-color: rgb(112, 112, 112);
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 50px 0px;
+		text-align: center;
+	}
+	#achievement1 table{
+		width: 100%;
+		color: white;
+	}
+	#achievement1 table tr td{
+		padding: 30px 0px;
+	}
+	#achievement1 table tr td img{
+		width: 64px;
+		height: 64px;
+	}
+	#achievement1 table tr td h1{
+		font-size: 4em;
+		margin-top: 12px;
+		font-weight: bold;
+	}
+	#achievement1 table tr td p{
+		font-size: 1.5em;
+		margin-top: 12px;
+	}	
 }
 @media (max-width: 900px){
 	section#body div#wideScreen section#heading{
