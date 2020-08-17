@@ -159,6 +159,12 @@ section#body div#wideScreen section#whatWeDo table tr td div a:hover{
 	padding: 80px 120px 0px 120px;
 	text-align: center;
 }
+#ourProjects1{
+	display: none;
+}
+#ourProjects2{
+	display: none;
+}
 #ourProjects h1{
 	font-size: 2.1em;
 	font-weight: bold;
@@ -178,7 +184,7 @@ section#body div#wideScreen section#whatWeDo table tr td div a:hover{
 }
 #ourProjects table{
 	width: 100%;
-	margin: 18px 24px;
+	margin: 18px auto;
 	border-spacing: 20px 40px;
 }
 #ourProjects table tr td{
@@ -219,6 +225,76 @@ section#body div#wideScreen section#whatWeDo table tr td div a:hover{
 #ourProjects table tr:nth-child(2) td:nth-child(4) figure{
 	background-image: url("../images/pic_header_1_370x300.jpg");
 }
+#testimonials{
+	padding: 80px 100px 20px 100px;
+	text-align: center;
+}
+#testimonials1{
+	display: none;
+}
+#testimonials2{
+	display: none;
+}
+#testimonials h1{
+	font-size: 2.1em;
+	font-weight: bold;
+}
+#testimonials p{
+	width: 80%;
+	margin: 30px auto 0px auto;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: rgb(125, 125, 125); 
+}
+#testimonials table{
+	width: 100%;
+	margin: 40px auto 0px auto;
+	border-spacing: 20px 0px;
+	text-align: left;
+}
+#testimonials table tr td{
+	background-color: white;
+	border: 1px solid rgb(222, 222, 222);
+	vertical-align: bottom;
+	border-radius: 3px;
+	padding: 13px;
+	width: 25%;
+}
+#testimonials table tr td blockquote{
+	font-size: 1.2em;
+	color: rgb(125, 125, 125);
+	line-height: 1.8em;
+	background-image: url("../images/ic_quotation_mark.png");
+	background-repeat: no-repeat;
+}
+#testimonials table tr td table{
+	margin: 0px 0px;
+	margin-top: 10px;
+	border-spacing: 0px 0px;
+}
+#testimonials table tr td table tr td{
+	border: 0px solid transparent;
+}
+#testimonials table tr td table tr td img{
+	width: 49px;
+	height: 49px;
+	vertical-align: middle;
+	text-align: middle;
+}
+#testimonials table tr td table tr td{
+	vertical-align: middle;
+}
+#testimonials table tr td table tr td:nth-child(2){
+	padding-left: 0px;
+	width: 0px;
+}
+#testimonials table tr td table tr td:nth-child(2) h5{
+	font-size: 1em;
+}
+#testimonials table tr td table tr td:nth-child(2) p{
+	margin: 0px;
+	font-size: 0.9em;
+}
 
 @media (max-width: 1250px){
 	section#body div#wideScreen section#heading{
@@ -254,6 +330,9 @@ section#body div#wideScreen section#whatWeDo table tr td div a:hover{
 	}
 	#ourProjects{
 		padding: 80px 80px 0px 80px;
+	}
+	#testimonials{
+		padding: 80px 40px 20px 40px;
 	}
 }
 @media (max-width: 1100px){
@@ -384,6 +463,139 @@ section#body div#wideScreen section#whatWeDo table tr td div a:hover{
 		font-size: 1.5em;
 		margin-top: 12px;
 	}	
+	#ourProjects{
+		display: none
+	}
+	#ourProjects1{
+		display: block;
+		padding: 40px 20px 0px 20px;
+		text-align: center;
+	}
+	#ourProjects2{
+		display: none;
+	}
+	#ourProjects1 h1{
+		font-size: 2.1em;
+		font-weight: bold;
+	}
+	#ourProjects1 p{
+		width: 90%;
+		margin: 30px auto 0px auto;
+		font-size: 1.2em;
+		line-height: 1.6em;
+		color: rgb(125, 125, 125); 
+	}
+	#ourProjects1 table{
+		width: 100%;
+		margin: 0px auto;
+		border-spacing: 20px 40px;
+	}
+	#ourProjects1 table tr td{
+		width: 50%;
+	}
+	#ourProjects1 table tr td figure{
+		height: 200px;
+		background-image: url("../images/pic_header_2_370x300.jpg");
+		background-color: rgb(112, 112, 112);
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 2px;
+	}
+	#ourProjects1 table tr td figcaption{
+		text-align: left;
+		vertical-align: bottom;
+	}
+	#ourProjects1 table tr td figcaption h3{
+		color: black;
+		font-size: 1.3em;
+		margin-top: 10px;
+		font-weight: bold;
+	}
+	#ourProjects1 table tr td figcaption p{
+		color: rgb(125, 125, 125); 
+		font-size: 1.2em;
+		margin: 10px 0px 0px 0px;
+	}
+	#ourProjects1 table tr:nth-child(1) td:nth-child(1) figure{
+		background-image: url("../images/pic_header_1_370x300.jpg");
+	}
+	#ourProjects1 table tr:nth-child(2) td:nth-child(2) figure{
+		background-image: url("../images/pic_header_1_370x300.jpg");
+	}
+	#ourProjects1 table tr:nth-child(3) td:nth-child(1) figure{
+		background-image: url("../images/pic_header_1_370x300.jpg");
+	}
+	#ourProjects1 table tr:nth-child(4) td:nth-child(2) figure{
+		background-image: url("../images/pic_header_1_370x300.jpg");
+	}
+	#testimonials{
+		display: none;
+	}
+	#testimonials1{
+		display: block;
+		padding: 80px 30px 20px 30px;
+		text-align: center;
+	}
+	#testimonials1 h1{
+		font-size: 2.1em;
+		font-weight: bold;
+	}
+	#testimonials1 p{
+		width: 80%;
+		margin: 30px auto 0px auto;
+		font-size: 1.2em;
+		line-height: 1.6em;
+		color: rgb(125, 125, 125); 
+	}
+	#testimonials1 table{
+		width: 100%;
+		margin: 40px auto 0px auto;
+		border-spacing: 20px 20px;
+		text-align: left;
+	}
+	#testimonials1 table tr td{
+		background-color: white;
+		border: 1px solid rgb(222, 222, 222);
+		vertical-align: bottom;
+		border-radius: 3px;
+		padding: 13px;
+		width: 25%;
+	}
+	#testimonials1 table tr td blockquote{
+		font-size: 1.2em;
+		color: rgb(125, 125, 125);
+		line-height: 1.8em;
+		background-image: url("../images/ic_quotation_mark.png");
+		background-repeat: no-repeat;
+	}
+	#testimonials1 table tr td table{
+		margin: 0px 0px;
+		margin-top: 10px;
+		border-spacing: 0px 0px;
+	}
+	#testimonials1 table tr td table tr td{
+		border: 0px solid transparent;
+	}
+	#testimonials1 table tr td table tr td img{
+		width: 49px;
+		height: 49px;
+		vertical-align: middle;
+		text-align: middle;
+	}
+	#testimonials1 table tr td table tr td{
+		vertical-align: middle;
+	}
+	#testimonials1 table tr td table tr td:nth-child(2){
+		padding-left: 0px;
+		width: 0px;
+	}
+	#testimonials1 table tr td table tr td:nth-child(2) h5{
+		font-size: 1em;
+	}
+	#testimonials1 table tr td table tr td:nth-child(2) p{
+		margin: 0px;
+		font-size: 0.9em;
+	}
 }
 @media (max-width: 900px){
 	section#body div#wideScreen section#heading{
@@ -471,5 +683,141 @@ section#body div#wideScreen section#whatWeDo table tr td div a:hover{
 	}
 	#weUnderstand1 div:first-child{
 		height: 300px;
+	}
+	#ourProjects{
+		display: none
+	}
+	#ourProjects1{
+		display: none;
+	}
+	#ourProjects2{
+		display: block;
+		padding: 40px 20px 0px 20px;
+		text-align: center;
+	}
+	#ourProjects2 h1{
+		font-size: 2.1em;
+		font-weight: bold;
+	}
+	#ourProjects2 p{
+		width: 90%;
+		margin: 30px auto 0px auto;
+		font-size: 1.2em;
+		line-height: 1.6em;
+		color: rgb(125, 125, 125); 
+	}
+	#ourProjects2 table{
+		width: 100%;
+		margin: 0px auto;
+		border-spacing: 10px 40px;
+	}
+	#ourProjects2 table tr td{
+		width: 100%;
+	}
+	#ourProjects2 table tr td figure{
+		height: 250px;
+		background-image: url("../images/pic_header_2_370x300.jpg");
+		background-color: rgb(112, 112, 112);
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 2px;
+	}
+	#ourProjects2 table tr td figcaption{
+		text-align: left;
+		vertical-align: bottom;
+	}
+	#ourProjects2 table tr td figcaption h3{
+		color: black;
+		font-size: 1.3em;
+		margin-top: 10px;
+		font-weight: bold;
+	}
+	#ourProjects2 table tr td figcaption p{
+		color: rgb(125, 125, 125); 
+		font-size: 1.2em;
+		margin: 10px 0px 0px 0px;
+	}
+	#ourProjects2 table tr:nth-child(1) td:nth-child(1) figure{
+		background-image: url("../images/pic_header_1_370x300.jpg");
+	}
+	#ourProjects2 table tr:nth-child(3) td:nth-child(1) figure{
+		background-image: url("../images/pic_header_1_370x300.jpg");
+	}
+	#ourProjects2 table tr:nth-child(5) td:nth-child(1) figure{
+		background-image: url("../images/pic_header_1_370x300.jpg");
+	}
+	#ourProjects2 table tr:nth-child(7) td:nth-child(1) figure{
+		background-image: url("../images/pic_header_1_370x300.jpg");
+	}
+	#testimonials{
+		display: none;
+	}
+	#testimonials1{
+		display: none;
+	}
+	#testimonials2{
+		display: block;
+		padding: 80px 10px 20px 10px;
+		text-align: center;
+	}
+	#testimonials2 h1{
+		font-size: 2.1em;
+		font-weight: bold;
+	}
+	#testimonials2 p{
+		width: 80%;
+		margin: 30px auto 0px auto;
+		font-size: 1.2em;
+		line-height: 1.6em;
+		color: rgb(125, 125, 125); 
+	}
+	#testimonials2 table{
+		width: 100%;
+		margin: 40px auto 0px auto;
+		border-spacing: 20px 20px;
+		text-align: left;
+	}
+	#testimonials2 table tr td{
+		background-color: white;
+		border: 1px solid rgb(222, 222, 222);
+		vertical-align: bottom;
+		border-radius: 3px;
+		padding: 13px;
+		width: 25%;
+	}
+	#testimonials2 table tr td blockquote{
+		font-size: 1.2em;
+		color: rgb(125, 125, 125);
+		line-height: 1.8em;
+		background-image: url("../images/ic_quotation_mark.png");
+		background-repeat: no-repeat;
+	}
+	#testimonials2 table tr td table{
+		margin: 0px 0px;
+		margin-top: 10px;
+		border-spacing: 0px 0px;
+	}
+	#testimonials2 table tr td table tr td{
+		border: 0px solid transparent;
+	}
+	#testimonials2 table tr td table tr td img{
+		width: 49px;
+		height: 49px;
+		vertical-align: middle;
+		text-align: middle;
+	}
+	#testimonials2 table tr td table tr td{
+		vertical-align: middle;
+	}
+	#testimonials2 table tr td table tr td:nth-child(2){
+		padding-left: 0px;
+		width: 0px;
+	}
+	#testimonials2 table tr td table tr td:nth-child(2) h5{
+		font-size: 1em;
+	}
+	#testimonials2 table tr td table tr td:nth-child(2) p{
+		margin: 0px;
+		font-size: 0.9em;
 	}
 }
