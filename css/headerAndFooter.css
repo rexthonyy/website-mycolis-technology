@@ -33,7 +33,7 @@ label a:link, label a:visited, label a:hover{
 }
 nav ul{
 	float: right;
-	margin-right: 80px;
+	margin-right: 60px;
 }
 nav ul li{
 	display: inline;
@@ -54,7 +54,7 @@ nav ul li a.active,nav ul li a:hover{
 }
 .checkbtn{
 	font-size: 25px;
-	color: white;
+	color: black;
 	float: right;
 	margin-right: 20px;
 	cursor: pointer;
@@ -128,7 +128,7 @@ footer#base{
 }
 @media (max-width: 1250px){
 	label.logo{
-		margin-left: 40px;
+		margin-left: 35px;
 	}
 	nav ul{
 		float: right;
@@ -145,9 +145,13 @@ footer#base{
 		height: 80px;
 	}
 	label.logo{
-		font-size: 1.6em;
+		font-size: 1.5em;
 		line-height: 78px;
 		margin-left: 20px;
+	}
+	label.logo a img{
+		width: 43px;
+		height: 43px;
 	}
 	nav ul{
 		margin-right: 10px;
@@ -174,11 +178,11 @@ footer#base{
 }
 @media (max-width: 950px){
 	label.logo{
-		display: none;
+		display: block;
 	}
 	label a img{
-		width: 13px;
-		height: 13px;
+		width: 32px;
+		height: 32px;
 		vertical-align: middle;
 		margin-right: 5px;
 	}
@@ -204,7 +208,7 @@ footer#base{
 		width: 100%;
 		height: 100vh;
 		padding-bottom: 70px; 
-		background: #2c3e50;
+		background: white;
 		top: 80px;
 		left: -100%;
 		text-align: center;
@@ -213,7 +217,7 @@ footer#base{
 	}
 	nav ul li a:hover,nav ul li a.active{
 		background: none;
-		color:#0082e6;
+		color: orange;
 	}
 	#check:checked ~ ul{
 		left: 0;
@@ -242,7 +246,12 @@ footer#base{
 }
 
 @media (max-width: 600px){
-	
+	label.logo a img{
+		display: none;
+	}
+	label.logo{
+		font-size: 1.4em;
+	}
 	footer section section header{
 		margin-bottom: 15px;
 		font-size: 1.5em;
