@@ -1,0 +1,287 @@
+section#body section#heading{
+	background-image: url("../images/about/pic_about_header.jpg");
+	background-color: rgb(112, 112, 112);
+	height: 550px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#ctaText{
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 550px;
+}
+#contentContainer{
+	padding: 80px 150px;
+	background-color: white;
+}
+#ourMission h1{
+	font-size: 2.1em;
+	font-weight: bold;
+}
+#ourMission p{
+	font-size: 1.6em;
+	color: rgb(90, 90, 90);
+	margin-top: 16px;
+	line-height: 1.5em;
+}
+#ourHistory h1{
+	font-size: 2.1em;
+	font-weight: bold;
+	margin-top: 50px;
+}
+#ourHistory p{
+	font-size: 1.6em;
+	color: rgb(90, 90, 90);
+	margin-top: 16px;
+	line-height: 1.5em;
+}
+#meetOurTeam{
+	display: block;
+}
+#meetOurTeam1{
+	display: none;
+}
+#meetOurTeam2{
+	display: none;
+}
+#meetOurTeam h1{
+	font-size: 2.1em;
+	font-weight: bold;
+	margin-top: 80px;
+	text-align: center;
+}
+#meetOurTeam table{
+	margin-top: 40px;
+	width: 100%;
+	text-align: center;
+	border-spacing: 20px 0px;
+}
+#meetOurTeam table tr td{
+	width: 25%;
+}
+#meetOurTeam table tr td figure{
+	height: 250px;
+	background-image: url("../images/about/1.jpg");
+	background-color: rgb(112, 112, 112);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 2px;
+}
+#meetOurTeam table tr td figcaption{
+	text-align: center;
+	vertical-align: bottom;
+}
+#meetOurTeam table tr td figcaption h3{
+	color: black;
+	font-size: 1.3em;
+	margin-top: 10px;
+	font-weight: bold;
+}
+#meetOurTeam table tr td figcaption p{
+	color: rgb(125, 125, 125); 
+	font-size: 1.2em;
+	margin: 10px 0px 0px 0px;
+}
+#meetOurTeam table tr:nth-child(1) td:nth-child(1) figure{
+	background-image: url("../images/about/1.jpg");
+}
+#meetOurTeam table tr:nth-child(1) td:nth-child(2) figure{
+	background-image: url("../images/about/2.jpg");
+}
+#meetOurTeam table tr:nth-child(1) td:nth-child(3) figure{
+	background-image: url("../images/about/3.jpg");
+}
+#meetOurTeam table tr:nth-child(1) td:nth-child(4) figure{
+	background-image: url("../images/about/4.jpg");
+}
+@media (max-width: 1250px){
+	section#body section#heading{
+		height: 500px;
+	}
+	#ctaText{
+		font-size: 3.2em;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 500px;
+	}
+	#contentContainer{
+		padding: 80px 100px;
+	}
+}
+@media (max-width: 1100px){
+	#contentContainer{
+		padding: 80px 50px;
+	}
+}
+@media (max-width: 950px){
+	#meetOurTeam{
+		display: none;
+	}
+	#meetOurTeam1{
+		display: block;
+	}
+	#meetOurTeam2{
+		display: none;
+	}
+	#meetOurTeam1 h1{
+		font-size: 2.1em;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 80px;
+	}
+	#meetOurTeam1 table{
+		width: 100%;
+		margin: 0px auto;
+		border-spacing: 20px 40px;
+	}
+	#meetOurTeam1 table tr td{
+		width: 50%;
+	}
+	#meetOurTeam1 table tr td figure{
+		height: 200px;
+		background-image: url("../images/about/1.jpg");
+		background-color: rgb(112, 112, 112);
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 2px;
+	}
+	#meetOurTeam1 table tr td figcaption{
+		margin-top: 12px;
+		text-align: center;
+		vertical-align: bottom;
+	}
+	#meetOurTeam1 table tr td figcaption h3{
+		color: black;
+		font-size: 1.3em;
+		margin-top: 10px;
+		font-weight: bold;
+	}
+	#meetOurTeam1 table tr td figcaption p{
+		color: rgb(125, 125, 125); 
+		font-size: 1.2em;
+		margin: 10px 0px 0px 0px;
+	}
+	#meetOurTeam1 table tr:nth-child(1) td:nth-child(1) figure{
+		background-image: url("../images/about/1.jpg");
+	}
+	#meetOurTeam1 table tr:nth-child(1) td:nth-child(2) figure{
+		background-image: url("../images/about/2.jpg");
+	}
+	#meetOurTeam1 table tr:nth-child(2) td:nth-child(1) figure{
+		background-image: url("../images/about/3.jpg");
+	}
+	#meetOurTeam1 table tr:nth-child(2) td:nth-child(2) figure{
+		background-image: url("../images/about/4.jpg");
+	}
+}
+@media (max-width: 900px){
+	section#body section#heading{
+		height: 390px;
+	}
+	#ctaText{
+		font-size: 2.8em;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 390px;
+	}
+}
+@media (max-width: 750px){
+
+}
+@media (max-width: 600px){
+	section#body section#heading{
+		height: 250px;
+	}
+	#ctaText{
+		font-size: 1.8em;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 250px;
+	}
+	#contentContainer{
+		padding: 80px 30px;
+	}
+	
+	#ourMission h1{
+		font-size: 1.9em;
+		font-weight: bold;
+	}
+	#ourMission p{
+		font-size: 1.3em;
+		color: rgb(90, 90, 90);
+		margin-top: 16px;
+		line-height: 1.5em;
+	}
+	#ourHistory h1{
+		font-size: 1.9em;
+		font-weight: bold;
+		margin-top: 50px;
+	}
+	#ourHistory p{
+		font-size: 1.3em;
+		color: rgb(90, 90, 90);
+		margin-top: 16px;
+		line-height: 1.5em;
+	}
+
+	#meetOurTeam{
+		display: none
+	}
+	#meetOurTeam1{
+		display: none;
+	}
+	#meetOurTeam2{
+		display: block;
+	}
+	#meetOurTeam2 h1{
+		font-size: 1.9em;
+		font-weight: bold;
+		margin-top: 80px;
+		text-align: center;
+	}
+	#meetOurTeam2 table{
+		width: 100%;
+		margin: 0px auto;
+		border-spacing: 0px 40px;
+	}
+	#meetOurTeam2 table tr td{
+		width: 100%;
+	}
+	#meetOurTeam2 table tr td figure{
+		height: 250px;
+		background-image: url("../images/about/1.jpg");
+		background-color: rgb(112, 112, 112);
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 2px;
+	}
+	#meetOurTeam2 table tr td figcaption{
+		text-align: center;
+		vertical-align: bottom;
+	}
+	#meetOurTeam2 table tr td figcaption h3{
+		color: black;
+		font-size: 1.3em;
+		margin-top: 10px;
+		font-weight: bold;
+	}
+	#meetOurTeam2 table tr td figcaption p{
+		color: rgb(125, 125, 125); 
+		font-size: 1.2em;
+		margin: 10px 0px 0px 0px;
+	}
+	#meetOurTeam2 table tr:nth-child(1) td:nth-child(1) figure{
+		background-image: url("../images/about/1.jpg");
+	}
+	#meetOurTeam2 table tr:nth-child(2) td:nth-child(1) figure{
+		background-image: url("../images/about/2.jpg");
+	}
+	#meetOurTeam2 table tr:nth-child(3) td:nth-child(1) figure{
+		background-image: url("../images/about/3.jpg");
+	}
+	#meetOurTeam2 table tr:nth-child(4) td:nth-child(1) figure{
+		background-image: url("../images/about/4.jpg");
+	}
+}

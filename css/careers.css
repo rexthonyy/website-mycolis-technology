@@ -1,0 +1,62 @@
+section#body section#heading{
+	background-image: url("../images/careers/pic_careers_header.jpg");
+	background-color: rgb(112, 112, 112);
+	height: 550px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#ctaText{
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 550px;
+}
+#content h2{
+	text-align: center;
+	margin: 50px 50px;
+	font-size: 2em;
+}
+
+@media (max-width: 1250px){
+	section#body section#heading{
+		height: 500px;
+	}
+	#ctaText{
+		font-size: 3.2em;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 500px;
+	}
+}
+@media (max-width: 1100px){
+	
+}
+@media (max-width: 950px){
+	
+}
+@media (max-width: 900px){
+	section#body section#heading{
+		height: 390px;
+	}
+	#ctaText{
+		font-size: 2.8em;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 390px;
+	}
+}
+@media (max-width: 750px){
+
+}
+@media (max-width: 600px){
+	section#body section#heading{
+		height: 250px;
+	}
+	#ctaText{
+		font-size: 1.8em;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 250px;
+	}
+}

@@ -1,0 +1,188 @@
+section#body section#heading{
+	background-image: url("../images/training/pic_training_header.jpg");
+	background-color: rgb(112, 112, 112);
+	height: 550px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#ctaText{
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 550px;
+}
+#whatWeDo{
+	padding: 70px 120px;
+	text-align: center;
+}
+#whatWeDo table{
+	margin: 0px auto;
+	border-spacing: 30px 30px;
+}
+#whatWeDo table tr td{
+	padding: 40px 20px;
+	border: 1px solid rgb(225, 226, 226);
+	border-radius: 2px;
+	background-color: white;
+}
+#whatWeDo table tr td h1{
+	margin-top: 20px;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+#whatWeDo table tr td p{
+	margin-top: 20px;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: rgb(125, 125, 125);
+}
+#whatWeDo table tr td div{
+	margin-top: 20px;
+}
+#whatWeDo table tr td div a:link{
+	color: black;
+}
+#whatWeDo table tr td div a:hover{
+	color: orange;
+}
+#whatWeDo{
+	display: block;
+}
+#whatWeDo1{
+	display: none;
+}
+#whatWeDo2{
+	display: none;
+}
+@media (max-width: 1250px){
+	section#body section#heading{
+		height: 500px;
+	}
+	#ctaText{
+		font-size: 3.2em;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 500px;
+	}
+	#whatWeDo{
+		padding: 60px 50px;
+	}
+}
+@media (max-width: 1100px){
+	#whatWeDo{
+		padding: 60px 30px;
+	}
+}
+@media (max-width: 950px){
+	#whatWeDo{
+		display: none;
+	}
+	#whatWeDo1{
+		display: block;
+		text-align: center;
+	}
+	#whatWeDo2{
+		display: none;
+	}
+	#whatWeDo1 table{
+		margin: 0px auto;
+		border-spacing: 30px 30px;
+	}
+	#whatWeDo1 table tr td{
+		padding: 40px 20px;
+		border: 1px solid rgb(225, 226, 226);
+		border-radius: 2px;
+		background-color: white;
+	}
+	#whatWeDo1 table tr td h1{
+		margin-top: 20px;
+		font-size: 1.5em;
+		font-weight: normal;
+	}
+	#whatWeDo1 table tr td p{
+		margin-top: 20px;
+		font-size: 1em;
+		line-height: 1.5em;
+		color: rgb(125, 125, 125);
+	}
+	#whatWeDo1 table tr td div{
+		margin-top: 20px;
+	}
+	#whatWeDo1 table tr td div a:link{
+		color: black;
+	}
+	#whatWeDo1 table tr td div a:hover{
+		color: orange;
+	}
+}
+@media (max-width: 900px){
+	section#body section#heading{
+		height: 390px;
+	}
+	#ctaText{
+		font-size: 2.8em;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 390px;
+	}
+}
+@media (max-width: 750px){
+	#weUnderstand1 div:first-child{
+		height: 400px;
+	}
+}
+@media (max-width: 600px){
+	section#body section#heading{
+		height: 250px;
+	}
+	#ctaText{
+		font-size: 1.8em;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 250px;
+	}
+	#whatWeDo{
+		padding: 20px 15px;
+	}
+	#whatWeDo{
+		display: none;
+	}
+	#whatWeDo1{
+		display: none;
+	}
+	#whatWeDo2{
+		display: block;
+		text-align: center;
+	}
+	#whatWeDo2 table{
+		margin: 0px auto;
+		border-spacing: 30px 30px;
+	}
+	#whatWeDo2 table tr td{
+		padding: 40px 20px;
+		border: 1px solid rgb(225, 226, 226);
+		border-radius: 2px;
+		background-color: white;
+	}
+	#whatWeDo2 table tr td h1{
+		margin-top: 20px;
+		font-size: 1.5em;
+		font-weight: normal;
+	}
+	#whatWeDo2 table tr td p{
+		margin-top: 20px;
+		font-size: 1em;
+		line-height: 1.5em;
+		color: rgb(125, 125, 125);
+	}
+	#whatWeDo2 table tr td div{
+		margin-top: 20px;
+	}
+	#whatWeDo2 table tr td div a:link{
+		color: black;
+	}
+	#whatWeDo2 table tr td div a:hover{
+		color: orange;
+	}
+}
