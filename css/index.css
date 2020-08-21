@@ -44,30 +44,31 @@ section#body div#wideScreen section#whatWeDo table{
 	margin: 0px auto;
 	border-spacing: 30px 0px;
 }
-section#body div#wideScreen section#whatWeDo table tr td{
+#whatWeDo table tr td{
+	width: 25%;
 	padding: 40px 20px;
 	border: 1px solid rgb(225, 226, 226);
 	border-radius: 2px;
 	background-color: white;
 }
-section#body div#wideScreen section#whatWeDo table tr td h1{
+#whatWeDo table tr td h1{
 	margin-top: 20px;
 	font-size: 1.5em;
 	font-weight: normal;
 }
-section#body div#wideScreen section#whatWeDo table tr td p{
+#whatWeDo table tr td p{
 	margin-top: 20px;
 	font-size: 1em;
 	line-height: 1.5em;
 	color: rgb(125, 125, 125);
 }
-section#body div#wideScreen section#whatWeDo table tr td div{
+#whatWeDo table tr td div{
 	margin-top: 20px;
 }
-section#body div#wideScreen section#whatWeDo table tr td div a:link{
+#whatWeDo table tr td div a:link{
 	color: black;
 }
-section#body div#wideScreen section#whatWeDo table tr td div a:hover{
+#whatWeDo table tr td div a:hover{
 	color: orange;
 }
 #whatWeDo{
@@ -262,7 +263,7 @@ section#body div#wideScreen section#whatWeDo table tr td div a:hover{
 }
 #testimonials table tr td blockquote{
 	font-size: 1.2em;
-	color: rgb(125, 125, 125);
+	color: rgb(105, 105, 105);
 	line-height: 1.8em;
 	background-image: url("../images/ic_quotation_mark.png");
 	background-repeat: no-repeat;
@@ -336,7 +337,7 @@ section#body div#wideScreen section#whatWeDo table tr td div a:hover{
 	}
 }
 @media (max-width: 1100px){
-	section#body div#wideScreen section#whatWeDo{
+	#whatWeDo{
 		padding: 60px 30px;
 	}
 	#weUnderstand{
@@ -371,6 +372,7 @@ section#body div#wideScreen section#whatWeDo table tr td div a:hover{
 		border-spacing: 30px 30px;
 	}
 	#whatWeDo1 table tr td{
+		width: 50%;
 		padding: 40px 20px;
 		border: 1px solid rgb(225, 226, 226);
 		border-radius: 2px;
@@ -656,6 +658,7 @@ section#body div#wideScreen section#whatWeDo table tr td div a:hover{
 		border-spacing: 30px 30px;
 	}
 	#whatWeDo2 table tr td{
+		width: 100%;
 		padding: 40px 20px;
 		border: 1px solid rgb(225, 226, 226);
 		border-radius: 2px;
