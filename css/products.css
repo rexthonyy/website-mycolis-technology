@@ -40,10 +40,10 @@ section#body section#heading{
 #whatWeDo table tr td div{
 	margin-top: 20px;
 }
-#whatWeDo table tr td div a:link{
+#whatWeDo table tr td div a:link, #whatWeDo table tr td div a:visited{
 	color: black;
 }
-#whatWeDo table tr td div a:hover{
+#whatWeDo table tr td div a:hover, #whatWeDo table tr td div a:active{
 	color: orange;
 }
 #whatWeDo{
