@@ -2,7 +2,7 @@ section#body div#narrowScreen{
 	display: none;
 }
 section#body div#wideScreen section#heading{
-	background-image: url("../images/pic_header_2_370x300f.jpg");
+	background-image: url("../images/index/pic_index_header.jpg");
 	background-color: rgb(112, 112, 112);
 	height: 550px;
 	background-repeat: no-repeat;
@@ -193,7 +193,7 @@ section#body div#wideScreen section#whatWeDo table{
 }
 #ourProjects table tr td figure{
 	height: 200px;
-	background-image: url("../images/pic_header_2_370x300.jpg");
+	background-image: url("../images/pic_header_2_370x300.png");
 	background-color: rgb(112, 112, 112);
 	background-repeat: no-repeat;
 	background-size: cover;
