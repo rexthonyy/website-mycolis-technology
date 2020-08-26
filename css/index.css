@@ -217,12 +217,26 @@ section#body div#wideScreen section#whatWeDo table{
 #ourProjects table tr:nth-child(1) td:nth-child(1) figure{
 	background-image: url("../images/pic_header_1_370x300.jpg");
 }
+#ourProjects table tr:nth-child(1) td:nth-child(2) figure{
+	background-image: url("../images/project_pic_1.jpg");
+}
 #ourProjects table tr:nth-child(1) td:nth-child(3) figure{
 	background-image: url("../images/pic_header_1_370x300.jpg");
+}
+#ourProjects table tr:nth-child(1) td:nth-child(4) figure{
+	background-image: url("../images/project_pic_1.jpg");
+}
+
+#ourProjects table tr:nth-child(2) td:nth-child(1) figure{
+	background-image: url("../images/project_pic_1.jpg");
 }
 #ourProjects table tr:nth-child(2) td:nth-child(2) figure{
 	background-image: url("../images/pic_header_1_370x300.jpg");
 }
+#ourProjects table tr:nth-child(2) td:nth-child(3) figure{
+	background-image: url("../images/project_pic_1.jpg");
+}
+
 #ourProjects table tr:nth-child(2) td:nth-child(4) figure{
 	background-image: url("../images/pic_header_1_370x300.jpg");
 }
