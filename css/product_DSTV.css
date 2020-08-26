@@ -1,5 +1,5 @@
 section#body section#heading{
-	background-image: url("../images/pic_products_DSTV_header.jpg");
+	background-image: url("../images/pic_products_DSTV_header.gif");
 	background-color: rgb(112, 112, 112);
 	height: 550px;
 	background-repeat: no-repeat;
@@ -11,6 +11,7 @@ section#body section#heading{
 	text-align: center;
 	vertical-align: middle;
 	line-height: 550px;
+	display: none;
 }
 #DSTVContainer{
 	background-color: white;
