@@ -56,7 +56,7 @@ section#body section#heading{
 	margin-top: 40px;
 	width: 100%;
 	text-align: center;
-	border-spacing: 20px 0px;
+	border-spacing: 20px 20px;
 }
 #meetOurTeam table tr td{
 	width: 25%;
@@ -68,6 +68,8 @@ section#body section#heading{
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 2px;
+	margin: auto auto;
+	width: 100%;
 }
 #meetOurTeam table tr td figcaption{
 	text-align: center;
@@ -85,16 +87,19 @@ section#body section#heading{
 	margin: 10px 0px 0px 0px;
 }
 #meetOurTeam table tr:nth-child(1) td:nth-child(1) figure{
-	background-image: url("../images/about/1.jpg");
+	content: url("../images/about/1.jpg");
 }
 #meetOurTeam table tr:nth-child(1) td:nth-child(2) figure{
-	background-image: url("../images/about/2.jpg");
+	content: url("../images/about/2.jpg");
 }
 #meetOurTeam table tr:nth-child(1) td:nth-child(3) figure{
-	background-image: url("../images/about/3.jpg");
+	content: url("../images/about/3.jpg");
 }
 #meetOurTeam table tr:nth-child(1) td:nth-child(4) figure{
-	background-image: url("../images/about/4.jpg");
+	content: url("../images/about/4.jpg");
+}
+#meetOurTeam table tr:nth-child(2) td:nth-child(1) figure{
+	content: url("../images/about/5.jpg");
 }
 @media (max-width: 1250px){
 	section#body section#heading{
@@ -146,6 +151,7 @@ section#body section#heading{
 		background-repeat: no-repeat;
 		background-size: cover;
 		border-radius: 2px;
+		margin: auto auto;
 	}
 	#meetOurTeam1 table tr td figcaption{
 		margin-top: 12px;
@@ -164,16 +170,19 @@ section#body section#heading{
 		margin: 10px 0px 0px 0px;
 	}
 	#meetOurTeam1 table tr:nth-child(1) td:nth-child(1) figure{
-		background-image: url("../images/about/1.jpg");
+		content: url("../images/about/1.jpg");
 	}
 	#meetOurTeam1 table tr:nth-child(1) td:nth-child(2) figure{
-		background-image: url("../images/about/2.jpg");
+		content: url("../images/about/2.jpg");
 	}
 	#meetOurTeam1 table tr:nth-child(2) td:nth-child(1) figure{
-		background-image: url("../images/about/3.jpg");
+		content: url("../images/about/3.jpg");
 	}
 	#meetOurTeam1 table tr:nth-child(2) td:nth-child(2) figure{
-		background-image: url("../images/about/4.jpg");
+		content: url("../images/about/4.jpg");
+	}
+	#meetOurTeam1 table tr:nth-child(3) td:nth-child(1) figure{
+		content: url("../images/about/5.jpg");
 	}
 }
 @media (max-width: 900px){
@@ -256,6 +265,7 @@ section#body section#heading{
 		background-repeat: no-repeat;
 		background-size: cover;
 		border-radius: 2px;
+		margin: auto auto;
 	}
 	#meetOurTeam2 table tr td figcaption{
 		text-align: center;
@@ -273,15 +283,18 @@ section#body section#heading{
 		margin: 10px 0px 0px 0px;
 	}
 	#meetOurTeam2 table tr:nth-child(1) td:nth-child(1) figure{
-		background-image: url("../images/about/1.jpg");
+		content: url("../images/about/1.jpg");
 	}
 	#meetOurTeam2 table tr:nth-child(2) td:nth-child(1) figure{
-		background-image: url("../images/about/2.jpg");
+		content: url("../images/about/2.jpg");
 	}
 	#meetOurTeam2 table tr:nth-child(3) td:nth-child(1) figure{
-		background-image: url("../images/about/3.jpg");
+		content: url("../images/about/3.jpg");
 	}
 	#meetOurTeam2 table tr:nth-child(4) td:nth-child(1) figure{
-		background-image: url("../images/about/4.jpg");
+		content: url("../images/about/4.jpg");
+	}
+	#meetOurTeam2 table tr:nth-child(5) td:nth-child(1) figure{
+		content: url("../images/about/5.jpg");
 	}
 }
