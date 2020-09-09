@@ -1,0 +1,101 @@
+#modalBackground {
+	display: none;/*hidden by default*/
+	position: fixed;/*stay in place*/
+	z-index: 1;/*sits on top*/
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0, 0, 0); /*fallback color*/
+	background-color: rgba(25, 25, 25, 0.8);/*black with opacity*/
+}
+
+#profileModal {
+	display: block;
+	background-color: #fefefe;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 60%;
+	height: 90%;
+	overflow: auto;
+}
+
+#profileCloseBg{
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 10px 25px;
+	background-color: rgb(255, 164, 104);
+	border: 1px solid rgb(255, 164, 104);
+}
+
+#profileClose{
+	float: right;
+	color: white;
+	font-size: 3em;
+}
+
+#profileClose:hover{
+	cursor: pointer;
+	color: red;
+}
+
+#profileHead{
+	padding: 70px 50px 50px 50px;
+	text-align: center;
+	background-color: rgb(255, 164, 104);
+}
+
+#profileHead div:nth-child(1){
+	padding-top: 0px;
+}
+
+#profileHead div:nth-child(2){
+	font-size: 1.3em;
+	font-weight: bold;
+	color: black;
+	margin-top: 20px;
+}
+
+#profileHead div:nth-child(3),#profileHead div:nth-child(4){
+	margin-top: 5px;
+	font-size: 1.0pem;
+	color: rgb(50, 50, 50);
+}
+
+#profileBody{
+	padding: 15px 25px;
+}
+
+#profileBody p{
+	font-size: 1.1em;
+	line-height: 1.9em;
+}
+
+.pgraph{
+	margin-top: 20px;
+}
+
+@media (max-width: 1100px){
+	#profileModal {
+		width: 70%;
+		height: 90%;
+	}
+}
+
+@media (max-width: 950px){
+	#profileModal {
+		width: 80%;
+		height: 90%;
+	}
+}
+
+@media (max-width: 600px){
+	#profileModal {
+		width: 90%;
+		height: 90%;
+	}
+}
+

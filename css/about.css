@@ -101,6 +101,11 @@ section#body section#heading{
 #meetOurTeam table tr:nth-child(2) td:nth-child(1) figure{
 	content: url("../images/about/5.jpg");
 }
+#meetOurTeam table tr td figcaption h3:hover{
+	cursor: pointer;
+	color: orange;
+}
+
 @media (max-width: 1250px){
 	section#body section#heading{
 		height: 500px;
@@ -183,6 +188,10 @@ section#body section#heading{
 	}
 	#meetOurTeam1 table tr:nth-child(3) td:nth-child(1) figure{
 		content: url("../images/about/5.jpg");
+	}
+	#meetOurTeam1 table tr td figcaption h3:hover{
+		cursor: pointer;
+		color: orange;
 	}
 }
 @media (max-width: 900px){
@@ -296,5 +305,9 @@ section#body section#heading{
 	}
 	#meetOurTeam2 table tr:nth-child(5) td:nth-child(1) figure{
 		content: url("../images/about/5.jpg");
+	}
+	#meetOurTeam2 table tr td figcaption h3:hover{
+		cursor: pointer;
+		color: orange;
 	}
 }
