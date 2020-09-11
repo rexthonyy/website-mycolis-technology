@@ -221,7 +221,7 @@ section#body div#wideScreen section#whatWeDo table{
 	background-image: url("../images/project_pic_1.jpg");
 }
 #ourProjects table tr:nth-child(1) td:nth-child(3) figure{
-	background-image: url("../images/pic_header_1_370x300.jpg");
+	background-image: url("../images/index/website design.jpg");
 }
 #ourProjects table tr:nth-child(1) td:nth-child(4) figure{
 	background-image: url("../images/project_pic_1.jpg");
@@ -532,17 +532,21 @@ section#body div#wideScreen section#whatWeDo table{
 		font-size: 1.2em;
 		margin: 10px 0px 0px 0px;
 	}
-	#ourProjects1 table tr:nth-child(1) td:nth-child(1) figure{
+	#ourProjects1 table tr td figure{
+		margin: auto;
 		background-image: url("../images/pic_header_1_370x300.jpg");
 	}
-	#ourProjects1 table tr:nth-child(2) td:nth-child(2) figure{
-		background-image: url("../images/pic_header_1_370x300.jpg");
+	#ourProjects1 table tr:nth-child(1) td:nth-child(1) figure{
+		content: url("../images/pic_header_1_370x300.jpg");
+	}
+	#ourProjects1 table tr:nth-child(2) td:nth-child(1) figure{
+		content: url("../images/index/website design.jpg");
 	}
 	#ourProjects1 table tr:nth-child(3) td:nth-child(1) figure{
-		background-image: url("../images/pic_header_1_370x300.jpg");
+		content: url("../images/pic_header_1_370x300.jpg");
 	}
 	#ourProjects1 table tr:nth-child(4) td:nth-child(2) figure{
-		background-image: url("../images/pic_header_1_370x300.jpg");
+		content: url("../images/pic_header_1_370x300.jpg");
 	}
 	#testimonials{
 		display: none;
@@ -754,11 +758,15 @@ section#body div#wideScreen section#whatWeDo table{
 		font-size: 1.2em;
 		margin: 10px 0px 0px 0px;
 	}
-	#ourProjects2 table tr:nth-child(1) td:nth-child(1) figure{
+	#ourProjects2 table tr td figure{
 		background-image: url("../images/pic_header_1_370x300.jpg");
+		margin: auto;
+	}
+	#ourProjects2 table tr:nth-child(1) td:nth-child(1) figure{
+		content: url("../images/pic_header_1_370x300.jpg");
 	}
 	#ourProjects2 table tr:nth-child(3) td:nth-child(1) figure{
-		background-image: url("../images/pic_header_1_370x300.jpg");
+		content: url("../images/index/website design.jpg");
 	}
 	#ourProjects2 table tr:nth-child(5) td:nth-child(1) figure{
 		background-image: url("../images/pic_header_1_370x300.jpg");
