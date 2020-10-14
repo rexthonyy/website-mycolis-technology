@@ -224,7 +224,7 @@ section#body div#wideScreen section#whatWeDo table{
 	background-image: url("../images/index/website design.jpg");
 }
 #ourProjects table tr:nth-child(1) td:nth-child(4) figure{
-	background-image: url("../images/project_pic_1.jpg");
+	background-image: url("../images/index/our_projects_pic_1.jpg");
 }
 
 #ourProjects table tr:nth-child(2) td:nth-child(1) figure{
@@ -539,8 +539,14 @@ section#body div#wideScreen section#whatWeDo table{
 	#ourProjects1 table tr:nth-child(1) td:nth-child(1) figure{
 		content: url("../images/pic_header_1_370x300.jpg");
 	}
+	#ourProjects1 table tr:nth-child(1) td:nth-child(2) figure{
+		content: url("../images/project_pic_1.jpg");
+	}
 	#ourProjects1 table tr:nth-child(2) td:nth-child(1) figure{
 		content: url("../images/index/website design.jpg");
+	}
+	#ourProjects1 table tr:nth-child(2) td:nth-child(2) figure{
+		content: url("../images/index/our_projects_pic_1.jpg");
 	}
 	#ourProjects1 table tr:nth-child(3) td:nth-child(1) figure{
 		content: url("../images/pic_header_1_370x300.jpg");
@@ -765,8 +771,14 @@ section#body div#wideScreen section#whatWeDo table{
 	#ourProjects2 table tr:nth-child(1) td:nth-child(1) figure{
 		content: url("../images/pic_header_1_370x300.jpg");
 	}
+	#ourProjects2 table tr:nth-child(2) td:nth-child(1) figure{
+		content: url("../images/project_pic_1.jpg");
+	}
 	#ourProjects2 table tr:nth-child(3) td:nth-child(1) figure{
 		content: url("../images/index/website design.jpg");
+	}
+	#ourProjects2 table tr:nth-child(4) td:nth-child(1) figure{
+		content: url("../images/index/our_projects_pic_1.jpg");
 	}
 	#ourProjects2 table tr:nth-child(5) td:nth-child(1) figure{
 		background-image: url("../images/pic_header_1_370x300.jpg");
