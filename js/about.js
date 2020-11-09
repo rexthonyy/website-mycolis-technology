@@ -196,7 +196,7 @@ function getBenedictProfile(){
 	let position = "Technical Director";
 	let email = "timben2008@gmail.com";
 	let profile = 
-	"<p>Benedict Israel Obianuju jnr. (born 30<sup>th</sup> September, 1990) also known as Mc Kpakam is a recent graduate and certified welder and fabricator from the City and Guilds of London Institute who was given the honor of best graduating student in the department in July 2015 which was a first of its kind since the inception of the institution.</p>" +
+	"<p>Benedict Israel Obianuju jnr. (born 30<sup>th</sup> September, 1985) also known as Mc Kpakam is a recent graduate and certified welder and fabricator from the City and Guilds of London Institute who was given the honor of best graduating student in the department in July 2015 which was a first of its kind since the inception of the institution.</p>" +
 	
 	"<p class='pgraph'>A highly skilled and determined installer working with Mycolis Technology as a Technical Director from 1st of June till date, a graduate with a 2:1 degree in Computer Science from Delta State polytechnic, Ogwashi-Uku. An ambitious educator looking to progress into global mentoring, he is an accomplished and energetic computer instructor with a solid history of achievements in media and communication world.</p>" +
 	
