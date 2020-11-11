@@ -1,0 +1,9 @@
+.div-center-horizontal{
+	margin: 0 auto;
+	background-color: red;
+	padding: 80px;
+}
+
+.text-center-horizontal{
+	text-align: center;
+}
