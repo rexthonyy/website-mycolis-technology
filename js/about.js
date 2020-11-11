@@ -298,21 +298,21 @@ function getRexProfile(){
 	let position = "Web developer";
 	let email = "rexthonyy@gmail.com";
 	let profile = 
-	"<p>Analikwu Anthony Rex (born 8th January, 1995) is a recent graduate of Ahmadu Bello University where he was awarded a Second class upper (2.1) degree in Metallurgical and Materials Engineering in 2019. He was born in Kaduna State to a Christian family and has 3 brothers and a sister.</p>" +
+	"<p>Analikwu Anthony Rex (born 8th January, 1995) is a graduate of Ahmadu Bello University where he was awarded a degree in B.Eng Metallurgical and Materials Engineering in 2019. He was born in Kaduna State Nigeria to a Christian family and has 3 brothers and a sister.</p>" +
 	
-	"<p class='pgraph'>He attended Federal College of Education Zaria, where he studied Physics and Computer science and his interest in computers developed to a passion which has followed him throughout his career.</p>" +
+	"<p class='pgraph'>He attended Federal College of Education Zaria Kaduna State Nigeria, where he studied Physics and Computer science and it was there that his interest in computers developed.</p>" +
 	
-	"<p class='pgraph'>A highly motivated and intelligent student, he served at the Centre for Energy research and training, Ahmadu Bello University as an intern for 6 months where he participated in activities such as chemical analysis, sample preparation and testing, welding and fabrication and servicing of the Nuclear reactor at the facility.</p>" +
+	"<p class='pgraph'>A highly motivated and intelligent student, he served at the Centre for Energy research and training, Ahmadu Bello University as an intern for 6 months where he participated in activities such as chemical analysis, sample preparation, testing, welding, fabrication and servicing of the Nuclear reactor at the facility.</p>" +
 	
-	"<p class='pgraph'>For his final year project, he studied the power conversion of a dye sensitized solar cell using a titanium dioxide coated photo electrode. He also performed a comparative study on the frictional characteristics of chemically modified mahogany seed oil and cotton seed oil as bio lubricants using ring compression test.</p>" +
+	"<p class='pgraph'>For his final year project, he studied the power conversion efficiency of a dye sensitized solar cell using a titanium dioxide coated photo electrode, as well as performed a comparative study on the frictional characteristics of a chemically modified mahogany seed oil and cotton seed oil as bio lubricants using ring compression test.</p>" +
 	
-	"<p class='pgraph'>As a coper, he was posted to Asaba and served at Ministry of works Asaba for one year as an Engineer in training. He performed tasks such as site inspection, quantity survey and project management.</p>" +
+	"<p class='pgraph'>During his National service year, he was posted to Asaba Delta State Nigeria, and served at the state Ministry of works for a period of one year as an Engineer in training. While there, he performed tasks such as building design, site inspection, quantity survey and project management.</p>" +
 	
-	"<p class='pgraph'>He is a knowledgeable and intelligent engineer with a wide ranging skillset. His passion for Computers persisted to him creating software which have been published and downloaded by thousands of people all over the world. He created Student Mathematics, an app which helps Secondary or High school students to easily grasp concepts in Mathematics. It was published in 2016 on the Google play store, in 2017 he created Stay Organized, a productivity app which enables people to take notes and to keep track of tasks in to do lists. In 2020 he built and acquired <a href='https://www.qrauthenticator.com' target='_blank'>qrauthenticator.com</a> domain a website for the QR Authenticator app. He has skills in Full stack web and app development and has developed software for the windows operating system. He built and maintains this website." +
+	"<p class='pgraph'>He is a knowledgeable engineer with a wide ranging skillset. His interest in computers resulted in the creation of software which have been downloaded and used by people all over the world. He has skills in full stack web and app development and has created projects for clients all over the world. More information can be found at his website <a href='http://rexanthony.ga' target='_blank'>rexanthony.ga</a>. He built and maintains this website for Mycolis Technology" +
 
-	"<p class='pgraph'>He has been known to engage in other activities which he has great passion, which includes sports such as football, athletics and gymnastics.</p>" +
+	"<p class='pgraph'>Rex Anthony loves reading, discovering and sharing new ideas, he loves participating in chess competitions and plays games such as football, volleyball, athletics and gymnastics.</p>" +
 	
-	"<p class='pgraph'>In general, Analikwu Anthony Rex is a fun, creative and intelligent person who believes that technology has the potential to help people in Africa and all over the world and is determined to bring this vision to reality.</p>";
+	"<p class='pgraph' style='padding-bottom: 64px'>In general, Analikwu Anthony Rex is a fun, interesting and creative person who constantly thinks of how to apply technology in new and interesting ways to solve a problem or just for fun.</p>";
 	
 	return new TeamMember(name, position, src, email, profile);
 }
