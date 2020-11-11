@@ -279,7 +279,7 @@ function getLegendProfile(){
 	let position = "Administration/Design";
 	let email = "delegend2022@gmail.com";
 	let profile = 
-	"<p>Courage Osagie - Aaron (born 6th June1993) also known as Legend a Human Physiologist (BSc). Was awarded the Personality of the Year award by the National Emergency Management Agency Community Development Service Group which was a first of its kind since the inception of the association and has never married and is presently single, he resides at B.A Ukpebor House Asaba Delta State.</p>" +
+	"<p>Courage Osagie - Aaron (born 6th June 1808) also known as Legend a Human Physiologist (BSc). Was awarded the Personality of the Year award by the National Emergency Management Agency Community Development Service Group which was a first of its kind since the inception of the association and has never married and is presently single, he resides at B.A Ukpebor House Asaba Delta State.</p>" +
 	
 	"<p class='pgraph'>He was born to a Christian Esan Family of four Siblings in Ubiaja, Edo State. In 2010 he graduated from Ideal Secondary School in Irrua Edo State, and subsequently attended Ambrose Alli University Ekpoma Edo State, where he graduated with a 2:1 in the field of Human Physiology. During his University days was appointed as the Hostel Governor due to his academic prowess and exemplary leadership qualities, also won numerous Awards in sports and academics, from the summer of 2015 to the summer of 2018 was the undisputed athletics champion for his Hostel, and on August 2017 led his Hostel Debate Team for the School debate Competition which his Hostel female Team won the competition and the male Team came out as 3rd runners up.</p>" +
 	
