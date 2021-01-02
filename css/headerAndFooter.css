@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 *{
 	outline: none;
@@ -10,7 +10,7 @@
 }
 body{
 	/*font-family: Verdana, Geneva, Arial, sans-serif;*/
-   font-family: 'Open Sans',serif
+   font-family: 'Raleway', sans-serif;
 	font-size: small;
 	background-color: rgb(245, 246, 246);
 }
